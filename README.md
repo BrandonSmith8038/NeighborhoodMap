@@ -22,6 +22,7 @@ The app is used to display a list and map of some the most popular resteraunts i
 1. Clone or download the respository from [here](https://github.com/BrandonSmith8038/Udacity-FrontEndNano/tree/master/portfolio/Projects/Neighborhood%20Map).
 2. Run ```npm install``` to bring in the dependencies.
 3. Run ```bower install``` to bring in Bootstrap and Knockout.js.
+4. Run ```python -m http.server 8080``` to start up a local webserver and run the application
 #### API's Used during the project
 1. Google Maps API
 2. Foursqaure API
