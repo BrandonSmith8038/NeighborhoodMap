@@ -78,7 +78,7 @@ var places = [{
 
 }];
 
-var viewModel = function() {
+var ViewModel = function() {
 	var self = this;
 
 	//Show or Hide The Side Menu
@@ -121,7 +121,7 @@ var viewModel = function() {
 	}, self);
 
 }; //End Of View Model
-var vm = new viewModel();
+var vm = new ViewModel();
 ko.applyBindings(vm);
 
 
