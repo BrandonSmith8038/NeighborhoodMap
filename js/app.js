@@ -296,10 +296,11 @@ function initMap() {
         //Learned from https://stackoverflow.com/questions/3610135/google-maps-v3-api-extend-bounds-javascript-how-to
         bounds.extend(new google.maps.LatLng(places[i].location));
 
-        onClick(markers[i]);
 
+        onClick(markers[i]);
     } //End of the markers loop
 
+    
 
     function onClick(marker) {
         //Event listener to animate the marker on click
@@ -362,8 +363,8 @@ function initMap() {
             }
 
 
-            largeInfoWindow.setContent(output);
             largeInfoWindow.open(map, marker);
+            largeInfoWindow.setContent(output);
 
 
         }).fail(function() {
@@ -403,7 +404,7 @@ function initMap() {
         map.fitBounds(bounds);
 
     });
-
+    
 } // End of  initMap Function
 function gMapError() {
     return alert("We Apologize, there was an error loading the map. Please try again later");
