@@ -443,6 +443,6 @@ function calculateCenter() {
 	});
 
 } // End of  initMap Function
-function gm_authFailure() { 
-	alert("We Apologize, there was an error loading the map. Please try again later");
+function gMapError() { 
+	return alert("We Apologize, there was an error loading the map. Please try again later");
 }
